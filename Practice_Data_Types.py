@@ -21,14 +21,15 @@
 # except ValueError:
 #     print('invalid age input, please input a whole number')
 
-password = input('What is your password?: ')
-has_upper = any(ch.isupper() for ch in password)
-has_number = any(ch.isdigit() for ch in password)
-if has_upper and has_number:
-    print('password is strong')
-elif has_upper and not has_number:
-    print('You have an uppercase but not a number character in your password')
-elif has_number and not has_upper:
-    print('You have a number but not an uppercase character in your password')
-else:
-    print('Strong Password must have at least one uppercase character and at least one number character')
+# Practice 4 using booleans and some specific
+# password = input('What is your password?: ')
+# has_upper = any(ch.isupper() for ch in password)
+# has_number = any(ch.isdigit() for ch in password)
+# if has_upper and has_number:
+#     print('password is strong')
+# elif has_upper and not has_number:
+#     print('You have an uppercase but not a number character in your password')
+# elif has_number and not has_upper:
+#     print('You have a number but not an uppercase character in your password')
+# else:
+#     print('Strong Password must have at least one uppercase character and at least one number character')
